@@ -1,16 +1,17 @@
-# calculadora
 
-A new Flutter project.
+# Calculator app
+## Learning exercise with flutter and GetX
 
-## Getting Started
+I've been working with flutter and Getx, and in this case practice the calculator with flutter and Getx, managing the states with controller of GetX.
 
-This project is a starting point for a Flutter application.
+- ✨Magic ✨
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Calculator of addition, subtraction, multiplication and division.
+- managing od unique point.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This app is build with null safety.
+
+
+![Redux Counter](https://github.com/ferchodeleon/calculator_with_getx_flutter/blob/master/calculator%20app.gif?raw=true)
