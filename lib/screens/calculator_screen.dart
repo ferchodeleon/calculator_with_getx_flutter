@@ -35,12 +35,12 @@ class CalculatorScreen extends StatelessWidget {
                 CalculatorButton(
                   text: 'del',
                   bgColor: Color(0xffA5A5A5),
-                  onPressed: () => print('del'),
+                  onPressed: () => calculatorCtrl.deletedLastEntry(),
                 ),
                 CalculatorButton(
                   text: '/',
                   bgColor: Color(0xffF0A23B),
-                  onPressed: () => print('/'),
+                  onPressed: () => calculatorCtrl.selectOperation('/'),
                 ),
               ],
             ),
@@ -62,7 +62,7 @@ class CalculatorScreen extends StatelessWidget {
                 CalculatorButton(
                   text: 'x',
                   bgColor: Color(0xffF0A23B),
-                  onPressed: () => print('X'),
+                  onPressed: () => calculatorCtrl.selectOperation('x'),
                 ),
               ],
             ),
@@ -84,7 +84,7 @@ class CalculatorScreen extends StatelessWidget {
                 CalculatorButton(
                   text: '-',
                   bgColor: Color(0xffF0A23B),
-                  onPressed: () => print('-'),
+                  onPressed: () => calculatorCtrl.selectOperation('-'),
                 ),
               ],
             ),
@@ -106,7 +106,7 @@ class CalculatorScreen extends StatelessWidget {
                 CalculatorButton(
                   text: '+',
                   bgColor: Color(0xffF0A23B),
-                  onPressed: () => print('+'),
+                  onPressed: () => calculatorCtrl.selectOperation('+'),
                 ),
               ],
             ),
@@ -125,7 +125,7 @@ class CalculatorScreen extends StatelessWidget {
                 CalculatorButton(
                   text: '=',
                   bgColor: Color(0xffF0A23B),
-                  onPressed: () => print('='),
+                  onPressed: () => calculatorCtrl.calculateResult(),
                 ),
               ],
             ),
